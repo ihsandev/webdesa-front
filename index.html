@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Desa Tunreng Tellue</title>
+  <!-- inject:css -->
+  <link rel="stylesheet" href="assets/css/app.min.css">
+  <!-- endinject -->
+</head>
+
+<body>
+  <!-- progress loading page
+  <div class='progress' id="progress_div">
+    <div class='bar' id='bar1'></div>
+    <div class='percent' id='percent1'></div>
+  </div>
+
+  <input type="hidden" id="progress_width" value="0"> -->
+  <!-- end -->
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/Logo_Kab_Bone.png" alt="">
+        <div class="text-logo">
+          <h5 class="font-weight-bold mt-2">Desa Tunreng Tellue</h5>
+          <h6 class="text-secondary">KABUPATEN BONE</h6>
+        </div>
+      </a>
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <div class="navbar-toggler" data-toggle="collapse">
+        <span class="navbar-text">
+          <a class="toggle">
+            <div class="burger"></div>
+          </a>
+        </span>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="informasi.html">Informasi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="profil.html">Profil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lembaga.html">Lembaga</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tentang.html">Tentang</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+        </ul>
+
+        <form class="form-inline ml-auto my-lg-0">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <div class="input-group-text icon-cari"><i class="fa fa-search"></i></div>
+            </div>
+            <input type="text" class="cari" id="inlineFormInputGroup" placeholder="Telusuri halaman">
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- end navbar -->
+
+  <!-- navbar tampilan mobile -->
+
+  <section class="menus">
+    <ul class="list-unstyled">
+      <li class="active"><a href="index.html">Beranda</a></li>
+      <li><a href="informasi.html">Informasi</a></li>
+      <li><a href="profil.html">Profil</a></li>
+      <li><a href="lembaga.html">Lembaga</a></li>
+      <li><a href="tentang.html">Tentang</a></li>
+      <li><a href="data.html">Data</a></li>
+      <li>
+        <div class="container">
+          <form action="#">
+            <div>
+              <div class="input-icon">
+                <input type="email" name="email" id="email" placeholder="Telusuri halaman" />
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </form>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <!-- end navbar mobile -->
+
+  <!-- slider elemen -->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="jumbotron">
+          <div class="row">
+            <div class="col-md-6 offset-md-1 welcome">
+              <h3>Selamat Datang di</h3>
+              <h1>Desa Tunreng Tellu</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, commodi. Laborum in, id animi
+                molestias
+                facilis
+                molestiae vitae, dicta, maiores error voluptates mollitia ex impedit. Aliquam reiciendis sunt
+                eligendi
+                mollitia.</p>
+            </div>
+            <div class="col-md-4">
+              <img class="img-fluid" src="assets/images/people.jpg" alt="people">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="carousel-item">
+        <img class="d-block w-100" src="assets/images/img-item2.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/images/img-item3.jpg" alt="Third slide">
+      </div> -->
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- end slider -->
+
+  <!-- section news -->
+
+  <section class="news pt-4">
+    <div class="container-fluid">
+      <div class="row pt-5">
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="assets/images/img-item.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold">Sarana dan Prasarana</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's
+                content.
+              </p>
+              <a href="#" class="btn btn-primary rounded mt-4">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="assets/images/img-item3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold">Pertanian dan Perekonomian</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's
+                content.
+              </p>
+              <a href="#" class="btn btn-primary rounded mt-4">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="assets/images/img-item2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold">Budaya dan Pariwisata</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's
+                content.
+              </p>
+              <a href="#" class="btn btn-primary rounded mt-4">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end section news -->
+
+  <!-- section videos -->
+
+  <section class="videos">
+    <div class="container-fluid pt-5 pb-5">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://www.youtube.com/embed/SdGz1d-wkc4" allow="encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="col-md-4 desc-videos">
+          <h2 class="font-weight-bold mb-3">Video Seperti Seputar Potensi Desa Tunreng Tellue</h2>
+          <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit eveniet voluptatum
+            explicabo obcaecati
+            ea!
+            Nostrum deserunt aut repellendus ratione vero minus dolorem quaerat exercitationem aperiam? Earum fugit
+            rerum
+            pariatur tempora.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end section videos -->
+
+  <!-- section article -->
+
+  <section class="article pt-5 pb-5">
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card bg-white">
+            <div class="row">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <a href="">
+                    <a href="">
+                      <h5 class="card-title font-weight-bold">Lorem ipsum, dolor sit amet consectetur adipisicing.</h5>
+                    </a>
+                  </a>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio accusantium, rerum repellat
+                    tenetur
+                    nobis maiores.</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div id="img-1" class="img-item"></div>
+                <style>
+                  #img-1{
+                    background-image: url('assets/images/img-item.jpg'); 
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-white">
+            <div class="row">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <a href="">
+                    <h5 class="card-title font-weight-bold">Lorem ipsum, dolor sit amet consectetur adipisicing.</h5>
+                  </a>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio accusantium, rerum repellat
+                    tenetur
+                    nobis maiores.</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div id="img-2" class="img-item"></div>
+                <style>
+                  #img-2{
+                    background-image: url('assets/images/img-item2.jpg'); 
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-white">
+            <div class="row">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <a href="">
+                    <h5 class="card-title font-weight-bold">Lorem ipsum, dolor sit amet consectetur adipisicing.</h5>
+                  </a>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio accusantium, rerum repellat
+                    tenetur
+                    nobis maiores.</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div id="img-3" class="img-item"></div>
+                <style>
+                  #img-3{
+                    background-image: url('assets/images/img-item3.jpg'); 
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- end article -->
+
+        <!-- agenda desa -->
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header">
+              <h5 class="font-weight-bold pt-2 pb-3">Agenda Desa Tunreng Tellue</h5>
+            </div>
+            <div class="card-body">
+              <a href="">
+                <h6 class="card-title font-weight-bolder">Lelangan Tanah Kas Desa MT.2018</h6>
+              </a>
+              <p class="text-secondary mb-4">Selasa, 22 September 2018 (Jam 10:00)</p>
+              <a href="">
+                <h6 class="card-title font-weight-bolder">Upacara di Halaman Kecamatan Pakaian KORPRI</h6>
+              </a>
+              <p class="text-secondary mb-4">Senin, 21 September 2018 (Jam 08:00)</p>
+              <a href="">
+                <h6 class="card-title font-weight-bolder">Upacara di Halaman Kecamatan Pakaian KORPRI</h6>
+              </a>
+              <p class="text-secondary mb-4">Senin, 21 September 2018 (Jam 07:00)</p>
+              <a href="">
+                <h6 class="card-title font-weight-bolder">Musrenbangdes di Balai Desa</h6>
+              </a>
+              <p class="text-secondary mb-4">Sabtu, 18 September 2018 (Jam 09:00)</p>
+              <a href="">
+                <h6 class="card-title font-weight-bolder">Musrenbangdes di Balai Desa</h6>
+              </a>
+
+              <button class="btn btn-primary btn-sm btn-custom mt-4">Selengkapnya</button>
+            </div>
+          </div>
+        </div>
+        <!-- end agenda -->
+      </div>
+    </div>
+  </section>
+
+  <!-- end section -->
+
+  <!-- section konsultasi -->
+
+  <section class="konsultasi">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Konsultasi</h2>
+          <h2>Masalah Anda</h2>
+        </div>
+        <div class="col-md-4">
+          <form action="">
+            <div class="form-group">
+              <input type="text" placeholder="Nama Lengkap">
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="No. Telp / Email">
+            </div>
+            <div class="form-group">
+              <textarea name="" rows="3" placeholder="Uraian Masalah"></textarea>
+            </div>
+
+            <button class="btn btn-primary btn-lg btn-custom">Kirim</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end section konsultasi -->
+
+  <footer>
+    <div class="container-fluid p-5">
+      <div class="row">
+        <div class="col-md-2">
+          <h6 class="font-weight-bold mb-3">Kontak</h6>
+          <ul>
+            <li class="text-secondary">Desa Tunreng Tellue</li>
+            <li class="text-secondary">Sibulue, Kabupaten Bone </li>
+            <li class="text-secondary">Sulawesi Selatan, 92781</li>
+            <li class="text-secondary">+628114556770</li>
+            <li class="text-secondary">tunrengtellue@info.co.id</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h6 class="font-weight-bold mb-3">Informasi</h6>
+          <ul>
+            <li><a href="informasi.html">Berita</a></li>
+            <li><a href="agenda.html">Agenda</a></li>
+            <li><a href="info-geografis.html">Info geografis</a></li>
+            <li><a href="info-demografis.html">Info Demografis</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h6 class="font-weight-bold mb-3">Profil</h6>
+          <ul>
+            <li><a href="profil.html">Sejarah</a></li>
+            <li><a href="visimisi.html">Visi dan Visi</a></li>
+            <li><a href="asetdesa.html">Asset Desa</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h6 class="font-weight-bold mb-3">Lembaga</h6>
+          <ul>
+            <li><a href="lembaga.html">Pemerintah Desa</a></li>
+            <li><a href="bpd.html">BPD</a></li>
+            <li><a href="pkk.html">PKK</a></li>
+            <li><a href="karangtaruna.html">Karang Taruna</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h6 class="font-weight-bold mb-3">Tentang</h6>
+          <ul>
+            <li><a href="tentang.html">Sarana dan Prasarana</a></li>
+            <li><a href="tentang.html">Pertanian dan Perekonomian</a></li>
+            <li><a href="tentang.html">Budaya dan Pariwisata</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h6 class="font-weight-bold mb-3">Data</h6>
+          <ul>
+            <li><a href="data.html">Regulasi</a></li>
+            <li><a href="data.html">Transparansi Anggaran</a></li>
+            <li><a href="data.html">Formulir Layanan Desa</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="mt-3">
+        <!-- <div class="row mt-3"> -->
+        <div class="float-left">
+          <!-- <hr class="float-left" style="width:40%;"> -->
+          <p class="">&copy 2018 Desa Tunreng Tellue Bone Sulawesi Selatan </p>
+          <!-- <hr class="float-left" style="width:25%;"> -->
+        </div>
+
+        <div class="float-right social-icon">
+          <a href=""><i class="fab fa-facebook-square"></i></a>
+          <a href=""><i class="fab fa-twitter-square"></i></a>
+          <a href=""><i class="fab fa-linkedin"></i></a>
+          <a href=""><i class="fab fa-youtube"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    </div>
+  </footer>
+
+
+  <!-- inject:js -->
+  <script src="assets/js/bundle.min.js"></script>
+  <!-- endinject -->
+</body>
+
+</html>
